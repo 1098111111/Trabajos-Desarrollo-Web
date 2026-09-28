@@ -5,7 +5,7 @@
     <!-- Hero Section -->
     <section class="hero">
         <h1>SOBERANO DISTRITO<br>BARBER</h1>
-        <h2>Hórario de funcionamento: 08:00 - 20:00</h2>
+        <h2>Horario de funcionamiento: 08:00 - 20:00</h2>
         <p class="schedule-info">Centro Comercial San Gil Plaza</p>
         <p class="location-info">Local 322<br>San Gil, Santander - Colombia</p>
     </section>
@@ -18,25 +18,24 @@
         </div>
         <div class="about-text">
             <h3>Sobre</h3>
-            <p>Somos una Barberia que pose e un excelente servicio al cliente y sobre todo lo que más nos caracteriza es el nivel de perfección en todos nuestros cortes con el fin de que nuestros clientes conozcan lo que es tener estilo.</p>
-            <p>No supe que más poner asi que 50 pa todos si el profesor lee esto y si no lo lee 49.</p>
+            <p>Somos una Barbería que posee un excelente servicio al cliente y sobre todo lo que más nos caracteriza es el nivel de perfección en todos nuestros cortes con el fin de que nuestros clientes conozcan lo que es tener estilo.</p>
         </div>
     </div>
 
     <!-- Servicios (Carrusel/Tarjetas) -->
-    <section class="services-section">
+    <section class="services-section" id="servicios">
         <div class="services-container">
             <div class="services-header">
                 <h2>Servicios</h2>
             </div>
             <div class="services-banner-desc">
-                Tenemos en nuestro catalogo desde los cortes más clásicos hasta los últimos estilos para que puedas escoger el estilo que desees y nosotros lo hagamos realidad.
+                Tenemos en nuestro catálogo desde los cortes más clásicos hasta los últimos estilos para que puedas escoger el estilo que desees y nosotros lo hagamos realidad.
             </div>
             <div class="services-grid">
                 <div class="service-card">
                     <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=400&q=80" alt="Corte">
                     <div class="service-card-content">
-                        <h4>Corte de cabelo</h4>
+                        <h4>Corte de cabello</h4>
                         <span class="price-tag">$$$$</span>
                     </div>
                 </div>
@@ -58,24 +57,24 @@
         </div>
     </section>
 
-    <!-- Colaboradores -->
-    <div class="collab-section">
+    <!-- Colaboradores / Equipo -->
+    <div class="collab-section" id="equipo">
         <div class="collab-title-vertical">Colaboradores</div>
         <div class="collab-grid">
             <div class="collab-card">
-                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80" alt="Ian Duran">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80" alt="Andrea">
                 <h4>Andrea del Vequio</h4>
                 <div class="stars">★★★★★</div>
                 <div class="social-icons"><span>𝕏</span> <span>📷</span> <span>f</span></div>
             </div>
             <div class="collab-card">
-                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80" alt="Adan dueñas">
-                <h4>Adan dueñas</h4>
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80" alt="Adan">
+                <h4>Adan Dueñas</h4>
                 <div class="stars">★★★★★</div>
                 <div class="social-icons"><span>𝕏</span> <span>📷</span> <span>f</span></div>
             </div>
             <div class="collab-card">
-                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80" alt="Jhon Smit">
+                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80" alt="Jhon">
                 <h4>Jhon Smit</h4>
                 <div class="stars">★★★★★</div>
                 <div class="social-icons"><span>𝕏</span> <span>📷</span> <span>f</span></div>
@@ -83,10 +82,10 @@
         </div>
     </div>
 
-    <section class="testimonials-section">
+    <!-- Reseñas / Testimonios -->
+    <section class="testimonials-section" id="resenas">
         <h2>LO QUE DICEN NUESTROS CLIENTES</h2>
         <div class="testimonials-grid">
-            
             <div class="testimonial-card">
                 <div>
                     <div class="t-stars">★★★★★</div>
@@ -131,17 +130,15 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
 
+    <!-- Modal de Agendamiento -->
     <div class="modal-overlay" id="modalOverlay">
         <div class="modal" id="modalContent">
-            
-            <!-- Vista Formulario -->
             <div id="formView">
                 <div class="modal-header">
-                    <h3>Agendar horário</h3>
+                    <h3>Agendar horario</h3>
                     <button class="close-btn" id="closeModalBtn">&times;</button>
                 </div>
                 <div class="form-group">
@@ -150,13 +147,13 @@
                 </div>
                 <div class="form-group">
                     <label>Seleccione fecha</label>
-                    <input type="date" value="2000-01-01">
+                    <input type="date" value="2026-06-01">
                 </div>
                 <div class="form-group">
-                    <label>Selecione corte elegido</label>
+                    <label>Seleccione corte elegido</label>
                     <select>
                         <option>Corte de barba y cabello</option>
-                        <option>Corte de cabelo</option>
+                        <option>Corte de cabello</option>
                         <option>Corte completo</option>
                     </select>
                 </div>
@@ -172,21 +169,59 @@
                 <button class="btn-agendar" id="submitAgendarBtn">Agendar Horario</button>
             </div>
 
-            <!-- Vista Éxito (Agendamento Concluido) -->
             <div class="success-view" id="successView">
                 <img src="https://images.unsplash.com/photo-1517832606293-7ae2a4044f60?auto=format&fit=crop&w=100&q=80" alt="Logo">
-                <h4>Agendamento Realizao<br>Con Exito</h4>
+                <h4>Agendamiento Realizado<br>Con Éxito</h4>
                 <button class="btn-agendar" id="finishBtn">Listo</button>
             </div>
-
         </div>
     </div>
 
-    <form action="/productos" method="POST">
-        <input type="text" name="nombre" placeholder="Nombre del servicio o producto">
-        <input type="text" name="precio" placeholder="Precio">
-        <button type="submit">Guardar Producto</button>
-    </form>
+    <!-- Script de comportamiento -->
+    <script>
+        const openModalBtn = document.getElementById('openModalBtn');
+        const closeModalBtn = document.getElementById('closeModalBtn');
+        const modalOverlay = document.getElementById('modalOverlay');
+        const submitAgendarBtn = document.getElementById('submitAgendarBtn');
+        const finishBtn = document.getElementById('finishBtn');
+        const formView = document.getElementById('formView');
+        const successView = document.getElementById('successView');
+
+        if(openModalBtn) {
+            openModalBtn.addEventListener('click', () => {
+                modalOverlay.style.display = 'flex';
+                formView.style.display = 'block';
+                successView.style.display = 'none';
+            });
+        }
+
+        if(closeModalBtn) {
+            closeModalBtn.addEventListener('click', () => {
+                modalOverlay.style.display = 'none';
+            });
+        }
+
+        if(submitAgendarBtn) {
+            submitAgendarBtn.addEventListener('click', () => {
+                formView.style.display = 'none';
+                successView.style.display = 'block';
+            });
+        }
+
+        if(finishBtn) {
+            finishBtn.addEventListener('click', () => {
+                modalOverlay.style.display = 'none';
+            });
+        }
+
+        const timeSlots = document.querySelectorAll('.time-slot');
+        timeSlots.forEach(slot => {
+            slot.addEventListener('click', () => {
+                timeSlots.forEach(s => s.classList.remove('selected'));
+                slot.classList.add('selected');
+            });
+        });
+    </script>
 
     <%- include('partials/footer') %>
 </body>
