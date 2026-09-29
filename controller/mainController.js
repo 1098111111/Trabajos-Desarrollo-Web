@@ -47,4 +47,4 @@ const mainController = {
     }
 };
 
-module.exports = mainController;y
+module.exports = mainController;
